@@ -1,0 +1,12 @@
+[package]
+name = "service"
+version = "0.0.0"
+license = "Apache-2.0"
+repository = "https://github.com/yoshuawuyts/service"
+documentation = "https://docs.rs/service"
+description = "Rust service crate"
+authors = ["yoshuawuyts <yoshuawuyts@gmail.com>"]
+
+[dependencies]
+quicli = "0.2.0"
+hyper = "0.11.24"
